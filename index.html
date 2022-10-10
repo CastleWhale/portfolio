@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Castle Whale Landing</title>
+<title>Ben Reilly Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -39,26 +39,44 @@ font-family: Arial, Helvetica, sans-serif;
   float: left;
   width: 60%;
 }
+.card {
+  text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+h1 {text-align: center;
+  font-size: 70px
+}
+
 </style>
 </head>
 
 <body>
     <div class="navbar">
         <a href="#">Home</a>
-        <a href="GameDevlog.html">Game Devlog</a>
-        <a href="Mods.html">Mods</a>
+        
+        
     </div>
-<h1>Welcome to my Personal Devlog Site</h1>    
+<h1>Ben Reilly</h1>    
     <div class="row">
-      <div class="leftcolumn">
+      <div id ="content_area">
+        <img src="Files/Images/RangoPt2.jpg" alt="Image 1" class="center">
+        <p class="card">
+          Tell me this isn't a good placeholder image though.
+        </p>
+      </div>
         <div class="card">
           <p>A simple website created by me. Most of this is a placeholder as I build it up further.</p>
-          <p>On the Devlog page, I am documenting the process of teaching myself to develop an indie game.</p>
-          <p>On the Mods page, I am documenting the process of modding Elden Ring and showcasing what I have made so far. 
-            I have created a tutorial for modifying the game with param edits and will teach you to make custom spells.
           </p>
+          <button onclick="location.href='Files/ResumeBenMReilly.docx.pdf';">Resume Link</button>
+          <button onclick="location.href='Files/CVBenMReilly.pdf'">CV Link</button>
         </div>
-      </div>
     </div>
 
 </body>
