@@ -89,6 +89,26 @@ h1 {text-align: center;
   font-size: 70px
 }
 
+@media (max-width: 768px) {
+  /* styles for screens with a maximum width of 768 pixels */
+  .leftcolumn {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .card3 {
+    width: 50%;
+  }
+  .card2 {
+    width: 90%;
+  }
+  .card {
+    width: 80%;
+  }
+  .center2 {
+    width: 80%;
+  }
+}
+
 </style>
 </head>
 
@@ -111,7 +131,7 @@ h1 {text-align: center;
       <div id ="content_area">
         <div class="card2">
           <h2 style="color:white">CloudFormation Template</h2> 
-          <video width="820" height="540" controls>
+          <video  controls class="card2">
             <source src="Files/CloudFormationTemplateProject.mp4" type="video/mp4">
           </video>
         </div>
@@ -121,7 +141,7 @@ h1 {text-align: center;
       <div id ="content_area">
         <div class="card2">
           <h2 style="color:white">EC2 Python Script</h2> 
-          <video width="820" height="540" controls>
+          <video controls class="card2">
             <source src="Files/PythonProject.mp4" type="video/mp4">
           </video>
         </div>
